@@ -3,9 +3,9 @@ import java.lang.*;
 import java.io.*;
 import java.util.Scanner;
 
-class money{
+class Money2{
 
-    static void moneyCharge(Customer customer, Scanner sc) {
+    static void moneyCharge(Customer2 customer, Scanner sc) {
         System.out.println(customer.id + "님 얼마를 충전하시겠습니까?");
         int num = sc.nextInt();
 
@@ -13,8 +13,8 @@ class money{
         System.out.println(num + "원 충전되었습니다. (현재 잔액: " + customer.cash + "원)");
     }
 
-    static void check_inquiry(Customer customer){
-        System.our.println(customer.id,"님의 잔액은  %d원입니다.",customer.cash);
+    static void check_inquiry(Customer2 customer){
+        System.out.println(customer.id + "님의 잔액은 " + customer.cash + "원입니다.");
     }
     
 }
