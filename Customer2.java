@@ -3,14 +3,12 @@ import java.lang.*;
 import java.io.*;
 import java.util.Scanner;
 
-class Customer implements money{
+class Customer2 {
     int id;
     int cash = 0;
-    Scanner sc = new Scanner(System.in);
-    Customer(int id){
-        this.id=id
+    List<Order_Record> order_record = new ArrayList<>();
+    Customer2(int id){
+        this.id=id;
     }
-
-    
-    
+ 
 }
