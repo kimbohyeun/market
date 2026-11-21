@@ -1,7 +1,3 @@
-import java.util.*;
-import java.lang.*;
-import java.io.*;
-
 class Product3 {
     String product_name;
     int price;
